@@ -9,14 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rxdart: ^0.24.0
+  rxdart:
   esc_pos_utils:
     git:
       url: git://github.com/maxcorrads/esc_pos_utils.git
       ref: nullable
   # esc_pos_utils:
     # path: ../esc_pos_utils
-  flutter_blue: ^0.7.3
+  flutter_blue: ^0.8.0
 
 dev_dependencies:
   flutter_test:
